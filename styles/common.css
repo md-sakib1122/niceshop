@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-header{
-    width: 1200px;
-    margin: auto;
-}
+
 .p{
     color: rgb(58, 58, 58);
     font-family: Poppins;
@@ -25,24 +22,36 @@ header{
 .cart-header{
     color: rgb(24, 25, 31);
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
+    margin-top: 10px ;
 }
 
 .cart-description{
     color: rgb(120, 120, 133);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 1.8%;
+    width: 60%;
+    text-align: justify;
+    margin-top: 0px;
 }
 
 .cart-price{
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 150%;
+    margin-top: -30px;
+    color: rgba(0, 0, 0, 0.87);
+   
+}
+
+.cart img{
+    width: 100%;
+    object-fit: cover;
 }
